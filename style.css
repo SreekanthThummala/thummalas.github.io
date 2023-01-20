@@ -1,0 +1,54 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Header styles */
+header {
+    background-color: #0077C9;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Nav styles */
+nav {
+    background-color: #f1f1f1;
+    padding: 1em;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+/* Main styles */
+main {
+    padding: 1em;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 1em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0077C9;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
